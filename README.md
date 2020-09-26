@@ -1,4 +1,4 @@
 # DataStructuresInRuby
 
 
-Implementing ADT (Queue, Stack, Map) using Ruby
+Implementing ADT (Queue, Stack, Map and PolyTree) using Ruby
