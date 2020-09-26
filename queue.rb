@@ -6,6 +6,7 @@ class Queue
      @queue=[]
      @length=0
     end
+    
 
     def enqueue(el)
      @queue << el
