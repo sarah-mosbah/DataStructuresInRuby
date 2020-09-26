@@ -1,6 +1,6 @@
 class Map
 
-#iniit Method
+#iniit Method 1
     def initialize
      @map=Array.new {[]}
     end
