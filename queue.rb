@@ -7,6 +7,7 @@ class Queue
      @length=0
     end
     
+    
 
     def enqueue(el)
      @queue << el
