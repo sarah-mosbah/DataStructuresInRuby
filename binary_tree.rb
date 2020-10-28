@@ -9,7 +9,7 @@ class BinaryTree
 
 
 
-    def self.in_order(root)    #D->B->E->A->C->F
+    def self.in_order(root)    #D->B->E->A->C->F #lft, self, right
        return if root.nil?
 
        in_order(root.left)
@@ -17,7 +17,7 @@ class BinaryTree
        in_order(root.right)
     end
 
-    def self.pre_order(root)  #A->B->D->E->C->F
+    def self.pre_order(root)  #A->B->D->E->C->F  #self,lft, right
         return if root.nil?
  
         puts "#{root.val}"
@@ -27,7 +27,7 @@ class BinaryTree
  
 
 
-    def self.post_order(root)  #D->E->B->F->C->A
+    def self.post_order(root)  #D->E->B->F->C->A left, right,self
         return if root.nil?
 
         post_order(root.left)

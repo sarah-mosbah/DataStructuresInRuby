@@ -1,7 +1,7 @@
 # DataStructuresInRuby
 
 
-Implementing ADT (Queue, Stack, Map and PolyTree, LinkedList, HashSet, HashMap) using Ruby
+Implementing ADT (Queue, Stack, Map and PolyTree, LinkedList, HashSet, HashMap, Tries) using Ruby
 
 Implmenting BinaryTree Ordering Types
 
