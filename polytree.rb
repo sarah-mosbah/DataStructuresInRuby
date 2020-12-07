@@ -24,7 +24,7 @@ class PolyTreeNode
 
     def remove_child(child_node)
         child_node.parent=nil
-        child_node.parent.children.reject! {|node| node==child_node}
+        self.children.reject! {|node| node==child_node}
     end
 
 
